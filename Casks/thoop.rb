@@ -3,7 +3,7 @@ cask "thoop" do
   name "thoop"
   desc "WHOOP data in your terminal"
   homepage "https://github.com/garrettladley/thoop"
-  version "0.1.16"
+  version "0.1.17"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "thoop" do
   on_macos do
     on_intel do
       url "https://github.com/garrettladley/thoop/releases/download/v#{version}/thoop_#{version}_darwin_amd64.tar.gz"
-      sha256 "c6fda01f774f36309442c71b6626973c8030053e3c283406e2275d11a854dca8"
+      sha256 "220bd4fdabd319db8e2a879a463fbc2ce05ddb6d635d5059847428b4dacb6f33"
     end
     on_arm do
       url "https://github.com/garrettladley/thoop/releases/download/v#{version}/thoop_#{version}_darwin_arm64.tar.gz"
-      sha256 "1941fcd9a98ad9bdb63606667c83cb12404f645aebf0e601e5de5fa781f92e8a"
+      sha256 "c1ef0bbbb35812edef96f2abc27b53f2a1008d3cbd81571d3279f6878a1bc4db"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/garrettladley/thoop/releases/download/v#{version}/thoop_#{version}_linux_amd64.tar.gz"
-      sha256 "079a90860bf3b11f83ee83b5669e716e86ecc4590b9645b7ba0b99f18005ac67"
+      sha256 "07248f0fd6a05304b8de7073878d41c60d505f78cb96df74e1c423a89e72d832"
     end
     on_arm do
       url "https://github.com/garrettladley/thoop/releases/download/v#{version}/thoop_#{version}_linux_arm64.tar.gz"
-      sha256 "b458f7ddd2d9e1c1c328ca45962b41bb3d8fd97ffec8af960510d76f73d6e1d1"
+      sha256 "f3cd4b28a3171e3ebb95031cc0ad92c4c420fe379b74361a77eb3fb905764c0e"
     end
   end
 
